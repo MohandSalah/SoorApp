@@ -1,0 +1,19 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+  errors:
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+      avoid_classes_with_only_static_members: false
+      sort_constructors_first: true
+      prefer_single_quotes: true
+      avoid_empty_else: true
+      prefer_final_locals: true
+      unnecessary_nullable_for_final_variable_declarations: true
+      always_declare_return_types: true
+      avoid_void_async: true
+      
